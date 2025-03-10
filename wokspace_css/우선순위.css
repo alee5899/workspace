@@ -1,0 +1,24 @@
+
+
+/* 
+1위 - !importanat 속성이 붙은것
+2위 - 인라인 스타일
+3위 - id 선택자
+4위 - class선택자
+5위 - 태그선택자
+*/
+
+#ppp{
+  background-color: red;
+}
+
+
+.d1{
+  background-color: aqua; 
+  color: white;
+}
+
+div{
+  background-color: black !important;
+  font-size: 30px;
+}

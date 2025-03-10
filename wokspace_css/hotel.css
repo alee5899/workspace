@@ -1,0 +1,133 @@
+body{
+  display: flex;
+  justify-content: center;
+}
+.container{
+  width: 500px;
+  height: 360px
+}
+.member{
+  border: 1px solid black;
+  background-color: white
+}
+
+.room{
+  width: 100%;
+}
+
+.price>:first-child{
+  font-weight: bold
+}
+.price>:nth-child(2){
+  font-size: 50px;
+  color: orange;
+  font-weight:bold;
+}
+.price>:nth-child(3){
+  color: gray
+}
+.shape{
+  gap: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 10px 0px;
+}
+
+.face > img {
+  width: 50px;
+  border-radius: 50%
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .container >:first-child{
+  background-color: white;
+} */
+
+
+
+
+
+/* .face{
+  width: 60px;
+  border-radius: 50%;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  font-family: "Montserrat", sans-serif; 
+}
+
+
+
+/* 360  200 */
+/* div{
+  font-size: 3rem;
+  line-height: 150px;
+  width: 90%;
+ }
+
+ .arrow-span{
+  /* position을 fixed로 변경하면 top,left,right,bottom 속성도 변경해야함
+  네개의 속성의 의미: 떨어진 정도
+   */
+   /* fixed-> 화면상에서 위치를 고정 */
+  /* position: fixed;
+  right: 50px;
+  bottom: 50px;
+
+  border: 1px solid black;
+  width: 50px;
+  height: 50px;
+  font-size: 2rem;
+  border-radius: 50%;
+  text-align: center;
+  color: red */ 

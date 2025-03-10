@@ -1,0 +1,16 @@
+package study;
+
+//대학동창정보
+public class UnivFriend extends Friend {
+  private String major;
+
+  //new UniFriend("kim""010","경영학과")
+  public UnivFriend(String name, String tel, String major) {
+    super(name,tel);
+    this.major = major;
+  }
+  public  void showUnivInfo(){
+    super.showInfo();
+    System.out.println("전공 : " + major);
+  }
+}

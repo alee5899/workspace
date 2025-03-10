@@ -1,0 +1,30 @@
+.left{
+  border: 1px solid black;
+  display: inline-block;
+  width: 50%;
+  margin-right: -6px;
+  background-color: aliceblue;
+}
+
+.right{
+  border: 1px solid blue;
+  display: inline-block;
+  width:50%;
+}
+.btn{
+  padding: 0px 40px;
+}
+.check-span{
+  position: fixed;
+  right: 100px;
+  top: 50px;
+}
+.blue{
+  background-color: skyblue;
+   /* padding-left: 300px; */
+  /*text-align: center; */
+  color: white;
+}
+div{
+  text-align: center;
+}

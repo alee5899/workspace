@@ -1,0 +1,15 @@
+.container{
+  border: 1px solid black;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.list-table{
+  border: 1px solid #dddddd;
+  width: 100%;
+  border-collapse:collapse;
+}
+
+.list-table tr,.list-table td{
+  border: 1px solid #dddddd;
+}

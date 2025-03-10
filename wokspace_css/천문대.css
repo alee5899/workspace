@@ -1,0 +1,56 @@
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header{
+  background-color: #0c51a6;
+  display: flex;                                    
+  justify-content: space-between;
+  align-items: center;
+  width: 1200px;
+  /* margin: 0px auto  ; */
+  height: 90px;
+}
+ul{
+  display: flex;
+  justify-content: space-around;
+  background-color: #0a4288;
+  color: white;
+}
+.header > div{
+  width: 70%;
+}
+h3{
+  color: white;
+  margin-left: 40px;
+  font-size: 2rem;
+}
+a{
+  color: white;
+}
+
+.hi{
+  position: relative; 
+}
+
+.by{
+  position: absolute;
+  top: 130px;
+  left: 500px;
+  color: white;
+  padding: 30px 0px;
+}
+
+.first{
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.pick{
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1,1fr);
+}

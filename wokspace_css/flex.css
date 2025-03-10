@@ -1,0 +1,25 @@
+.container{
+  width: 500px;
+  border: 1px solid black;
+  height: 400px;
+
+  display: flex;
+  /* 주측 방향을 지정하는 속성
+     row(default) 주측을 가로로 설정(item들이 가로롤 배치)
+     colum 주측이 세로로 설정(item들이 세로롤 배치)*/
+  /* flex-direction: row; */
+  justify-content: flex-start;
+  /* align-items: center; */
+}
+
+.item{
+  border: 1px solid red;
+  /* align-self: flex-start; */
+  /* flex-grow: 1; ; */
+}
+.d1{
+  width: 30%;
+}
+.d2{
+  width: 50%;
+}

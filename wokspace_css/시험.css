@@ -1,0 +1,45 @@
+.container{
+  /* border: solid red 1px; */
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.container_2{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+table{
+  border: solid black 1px;
+  border-collapse: collapse ;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 40px;
+
+}  
+  
+
+td{
+  border: solid black 1px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px; 
+}  
+
+td:first-child {
+  width: 15%;
+  height: 40px;
+}  
+
+
+.font-small{
+  font-size: 12px;
+}  
+sub{
+  color: red;
+}  
+
+.input{
+  width: 5%;
+}  

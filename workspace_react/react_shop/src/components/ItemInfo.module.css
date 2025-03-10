@@ -1,0 +1,42 @@
+.item_info_container{
+  /* border: 1px solid black; */
+  display: flex;
+  gap: 2rem;
+}
+
+.list_div{
+  /* border: 1px solid red; */
+  width: 50%;
+}
+.detail_div{
+  /* border: 1px solid red; */
+  width: 50%;
+}
+.list_table{
+  width: 100%;
+  text-align: center;
+}
+.list_table thead tr{
+  border-top: 1.5px solid #FCC6FF;
+  border-bottom: 1px solid #FCC6FF;
+  background-color: #FCC6FF;
+  color: white;
+}
+
+.list_table tbody tr{
+  border-bottom: 1px solid lightgray;
+}
+
+.list_table td{
+  padding: 9px;
+}
+.list_table tbody tr:nth-child(even){
+  background-color: rgb(252, 198, 255,0.5) ;
+}
+
+.list_table tbody tr:hover{
+  background-color: #eeeeee;
+}
+
+
+
