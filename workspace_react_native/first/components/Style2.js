@@ -10,7 +10,8 @@ const Style2 = () => {
         <View>
           <Text>아이디</Text>
           <TextInput style={styles.input}
-          // onChangeText={test=>{setId(test)}}
+          //onchangeText에 들어갈 매개변수가 인풋태그에 들어갈 매개변수
+          onChangeText={test=>{setId(test)}}
           onChange={(e)=>{
             console.log(e.nativeEvent.text)
           }}
