@@ -18,7 +18,8 @@ const Task = ({e,cartList,setCartList}) => {
 
   useEffect(()=>{
     setNewText(e.item)
-  },[e]) // 마운트 될때만 실행 : 화면 처음띄울때
+  },[e]) 
+  // 마운트 될때만 실행 : 화면 처음띄울때
 
   // 장바구니 목록 데이터 수정
   const handleCartList= () => {
@@ -40,10 +41,13 @@ const Task = ({e,cartList,setCartList}) => {
     // find : 조건과 일치하는 데이터만 리턴한다.
     // filter : 조건과 일치하는 데이터만 필터링한다(제외한다)
     const copyCartList = [...cartList]
+    //find는 배열 데이터에서  cart라는 변수를 줘서 그중에서 e.id를 하나 골라내는것 e.id란 내가 선택한 id cartlist데이터전체가 아니다
     const findCart = copyCartList.find((cart)=>{return cart.id === e.id});
     findCart.item = newText;
-    console.log(copyCartList)
+    // console.log(copyCartList)
     setCartList(copyCartList);
+    
+    //
     // {
     //   cartList.map((car,i)=>{
     //     return(

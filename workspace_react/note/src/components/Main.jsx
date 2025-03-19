@@ -2,8 +2,8 @@ import { useState } from "react"
 import { data } from "./data/data"
 import { icon } from "../contants/icons"
 
-// const [list,setList] = useState(data);
-// const [ newItem,setNewItem] = useState('');
+const [list,setList] = useState(data);
+const [ newItem,setNewItem] = useState('');
 
 const Main = () => {
 
