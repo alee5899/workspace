@@ -32,7 +32,7 @@ const BoardUpdate = () => {
     });
   };
 
-  //수정완료 버튼 클릭시 실용
+  // //수정완료 버튼 클릭시 실용
   const updateBoard =()=>{
     axios.put(`/api/boards/${boardInfo.boardNum}`,boardInfo)
           .then(res=>{
@@ -51,7 +51,6 @@ const BoardUpdate = () => {
     <button type="button" onClick={(e)=>{updateBoard()}}>수정완료</button>
       <div>
         <button type="button" onClick={(e)=>{
-          
         }}>뒤로가</button>
       </div>
     </>

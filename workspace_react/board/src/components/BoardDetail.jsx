@@ -10,7 +10,7 @@ const BoardDetail = () => {
   
   //조회한 상세 정보를 저장할 state변수
   const [board, setBoard] = useState({});
-
+  
   //해당 게시글의 댓글 목록을 저장할 state변수
   const [replyList,setRepltList] = useState([]);
 

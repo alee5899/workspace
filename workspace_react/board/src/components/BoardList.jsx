@@ -58,7 +58,7 @@ const BoardList = () => {
   return (
     <>
     <div>자유게시판</div>
-    <div>
+    <div className={styles.container}>
       <select value={searchData.searchKeyword} name='searchKeyword' 
       onChange={(e)=>{changeSearchData(e)}}>
         <option value="TITLE">제목</option>
