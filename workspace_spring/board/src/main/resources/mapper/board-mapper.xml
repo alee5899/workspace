@@ -34,7 +34,7 @@
 
     <!--게시글 등록-->
     <insert id="insertBoard">
-        INSERT INTO BOARD(
+        INSERT INTO (
         TITLE,
         WRITER,
         CONTENT

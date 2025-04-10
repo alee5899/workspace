@@ -12,7 +12,7 @@ const BoardDetail = () => {
   const [board, setBoard] = useState({});
   
   //해당 게시글의 댓글 목록을 저장할 state변수
-  const [replyList,setRepltList] = useState([]);
+  const [replyList,setReplyList] = useState([]);
 
   //등록할 댓글 정보를 저장할 state변수
   const[replyInfo,setReplyInfo] = useState({
@@ -21,7 +21,7 @@ const BoardDetail = () => {
     boardNum:boardNum
   });
 
-  // //댓글입력시 실행되는 함수
+  // 댓글입력시 실행되는 함수
   const changeRelpyInfo = (e) =>{
     setReplyInfo({
       ...replyInfo,
@@ -47,7 +47,7 @@ const BoardDetail = () => {
     axios.get(`/api/replies/${boardNum}`)
         .then (res=>{
           console.log(res.data)
-          setRepltList(res.data)
+          setReplyList(res.data)
         })
       .catch(error =>
         console.log(error));
